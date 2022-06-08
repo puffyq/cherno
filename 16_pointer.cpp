@@ -13,7 +13,7 @@ int main()
     memset(buffer, 0, 8 );
 
     char **ptr = &buffer;
-    
+
     delete[] buffer;
 
 }
